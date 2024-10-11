@@ -1,7 +1,6 @@
 .conteiner {
     width: min(100%, 1440px);
     margin: auto;
-    background-color: aqua;
 }
 
 /* header  */
