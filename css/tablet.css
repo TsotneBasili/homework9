@@ -1,0 +1,41 @@
+/* 768-481  */
+
+@media (max-width: 711px) {
+    /* header  */
+    .header {
+        padding-inline: 38px;
+    }
+    .header_section_nav {
+        display: none;
+    }
+    .header_hamburger {
+        display: block;
+        color: #FFFFFF;
+        font-size: 24px;
+    }
+
+    /* section1  */
+    .section1 {
+        padding-inline: 38px;
+        height: 438px;
+    }
+
+    /* section2  */
+    .section2 {
+        padding-inline: 38px;
+    }
+
+    /* section3  */
+    .section3 {
+        padding-inline: 38px;
+    }
+
+    .section3_section_article {
+        flex: 1 1 100%
+    }
+    
+    .section3_article56_none {
+        display: none;
+    }
+
+  }
