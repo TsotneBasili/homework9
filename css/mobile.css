@@ -14,6 +14,11 @@
 
     }
 
+    .section1_h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
     /* section2  */
     .section2 {
         padding: 32px 14px;
