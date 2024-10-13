@@ -1,4 +1,13 @@
 /* 480-320  */
+@media (max-width: 395px) {
+    /* section1  */
+    .section1_h2 {
+        font-size: 32px;
+    }
+    .section1_p {
+        font-size: 14px;
+    }
+}
 
 @media (max-width: 376px) {
     /* header  */
@@ -39,15 +48,5 @@
         line-height: 36px;
     }
     
-  }
-
-
-@media (max-width: 395px) {
-    /* section1  */
-    .section1_h2 {
-        font-size: 32px;
-    }
-    .section1_p {
-        font-size: 14px;
-    }
 }
+
