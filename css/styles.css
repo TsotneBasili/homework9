@@ -200,6 +200,8 @@
 .section3_section_article {
     display: flex;
     flex-direction: column;
+    flex: 1 1 30%;
+
     padding: 16px;
     width: min(100%, 412px);
     cursor: pointer;
