@@ -129,18 +129,12 @@
     background-color: #000000;
     width: min(100, 412px);
     cursor: pointer;
+    transition: all 0.5s linear;
 }
 
 .section2_section_article:hover {
     transform: scale(1.03);
     border-radius: 8px;
-    transition: 1s linear;
-}
-
-.section2_section_article:hover 
-.section2_article_images {
-    border-radius: 8px 8px 0 0;
-    transition: 1s linear;
 }
 
 .section2_article_images {
@@ -148,6 +142,12 @@
     height: 190px;
     object-fit: cover;
     object-position: center;
+    transition: all 0.5s linear;
+}
+
+.section2_section_article:hover 
+.section2_article_images {
+    border-radius: 8px 8px 0 0;
 }
 
 .section2_section_article_section {
@@ -207,7 +207,7 @@
     padding: 16px;
     width: min(100%, 412px);
     cursor: pointer;
-    transition: all 1s linear;
+    transition: all 0.5s linear;
 }
 
 .section3_section_article:hover {
@@ -220,7 +220,7 @@
     height: 224px;
     object-fit: cover; 
     object-position: center;
-    transition: all 1s linear;
+    transition: all 0.5s linear;
 }
 
 .section3_section_article:hover 
