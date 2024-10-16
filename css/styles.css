@@ -207,12 +207,12 @@
     padding: 16px;
     width: min(100%, 412px);
     cursor: pointer;
+    transition: all 1s linear;
 }
 
 .section3_section_article:hover {
     border-radius: 8px;
     box-shadow: 0 0 0 2px #FA793C;
-    transition: 1s linear;
 }
 
 .section3_section_article_image {
@@ -220,12 +220,12 @@
     height: 224px;
     object-fit: cover; 
     object-position: center;
+    transition: all 1s linear;
 }
 
 .section3_section_article:hover 
 .section3_section_article_image {
     border-radius: 8px 8px 0 0;
-    transition: 1s linear;
 }
 
 .section3_section_article_p {
